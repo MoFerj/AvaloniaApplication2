@@ -19,9 +19,9 @@ namespace AvaloniaApplication2.Models
             get
             {
                 if (IstAn)
-                    return "Maschine Läuft";
+                    return "Maschine ist An";
                 else
-                    return "Machine stoppt";
+                    return "Machine ist Aus";
                 
             }
         }
